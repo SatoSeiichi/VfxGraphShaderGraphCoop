@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CustomLightingDissolve
+  m_Shader: {fileID: -6465566751694194690, guid: 5e24ba88bdbf54f4792a89be5f7905ee, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_d04c91e7481f440e80f74c7633e6c439:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 5713eb39d4c970d498829cb1bd939aaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Alpha: 0
+    - BOOLEAN_B1438F939F18494DA2D5C75E3C51651B: 0
+    - Smoothness: 0.5
+    - Vector1_09228f7166124a44a20c525ef4e8ca86: 0.38
+    - Vector1_2b7cad9a81bf4c6b92325ed58e1cb9c7: 0.14
+    - Vector1_589d43dd54b74fd696c325c46e26fb43: 0
+    - _Range: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - Color_18b4e7de972749ac840f9564f324ce45: {r: 1, g: 0.024585344, b: 0, a: 0}
+    - Color_883eb2658a88468f9eb67726f86008fb: {r: 2.639016, g: 1.167401, b: 0.3858938, a: 1}
+    - Vector3_208d07a760e14fcfa21406d902e62ef8: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_47b3647eba464ef8b66bd8142e192a62: {r: 1.81, g: 0.68, b: 0, a: 0}
+    - Vector3_a0a709d6e80549618913e63158bbb685: {r: 1, g: 1, b: 1, a: 0}
+    - Vector3_b67485e12c494d5aa72b3cae11e3491a: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Emiision: {r: 2.639016, g: 1.167401, b: 0.3858938, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
